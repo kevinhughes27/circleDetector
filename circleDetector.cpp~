@@ -4,7 +4,10 @@
 //
 // 2012
 //
-
+// This is an implementation of the circle detction RANSAC algorithm
+// described in "An efficient randomized algorithm for detecting circles"
+// by Chen, T.C. and Chung, K.L.
+ 
 #include <opencv2/core/core.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
